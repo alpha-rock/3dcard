@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9acbe6), color-stop(43%, #75e6ca), color-stop(69%, #75e6ca), to(#d8f5ba));
+    background: linear-gradient(to bottom, #9acbe6 0%, #75e6ca 43%, #75e6ca 69%, #d8f5ba 100%);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: perspective(1000px);
+            transform: perspective(1000px);
+  }
+  
+  .poster {
+    width: 320px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -160px;
+    border-radius: 5px;
+    /* box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4); */
+    overflow:none;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  div[class*="layer-"] {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+  
+  .shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), color-stop(60%, rgba(255, 255, 255, 0)));
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
+    z-index: 100;
+  }
+  
+  .layer-1 {
+    background-image: url("Greta-ivy4.png");
+  }
+  
+  .layer-2 {
+    background-image: url("Greta-ivy3.png");
+  }
+  
+  .layer-3 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("Greta-ivy2.png");
+  }
+  
+  .layer-4 {
+    background-image: url("Greta-ivy1.png");
+  }
+  
+  .layer-5 {
+    background-image: url("Greta-ivy5.png");
+  }
+  
